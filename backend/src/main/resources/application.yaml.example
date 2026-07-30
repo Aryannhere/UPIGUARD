@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: upiguard-backend
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/upiguard_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: YOUR_DB_PASSWORD_HERE
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+jwt:
+  secret: YOUR_JWT_SECRET_HERE_MIN_256_BITS
+  expiration: 86400000

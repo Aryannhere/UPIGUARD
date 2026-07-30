@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Node / React (frontend)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Java / Spring Boot (backend)
+backend/target/
+backend/.mvn/
+backend/*.iml
+backend/.idea/
+backend/HELP.md
+
+# Python / ML service
+upiguard-ml/venv/
+upiguard-ml/__pycache__/
+upiguard-ml/*.pyc
+upiguard-ml/.env
+
+# IDE
+.vscode/
+.idea/
+
+# Env files (secrets — never push these)
+**/.env
+**/application-secrets.yaml
+backend/src/main/resources/application.yaml
