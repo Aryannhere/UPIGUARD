@@ -126,8 +126,3 @@ Visit `http://localhost:3000`
 - React Native mobile app with push alerts
 
 ---
-
-## 👤 Author
-
-**Rohan Gupta**
-B.Tech CSE-IoT | [GitHub](https://github.com/rohangupta1258-prog) | [LinkedIn](https://linkedin.com/in/rohan-gupta-4b509928a)
